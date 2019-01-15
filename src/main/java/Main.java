@@ -7,6 +7,7 @@ import com.aliyuncs.exceptions.ServerException;
 import com.aliyuncs.profile.DefaultProfile;
 
 /**
+ *  2.0
  * @author Yql
  * @create 2019/1/15
  */
@@ -35,5 +36,6 @@ public class Main {
         } catch (ClientException e) {
             e.printStackTrace();
         }
+        System.out.println("hello");
     }
 }
